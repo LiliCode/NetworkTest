@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UserInfoModel.h"
 
 @interface ViewController ()
 
@@ -14,16 +15,26 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    UserInfoModel *info = [[UserInfoModel alloc] init];
+    NSArray *list = [info getPropertyList];
+    NSLog(@"%@", list);
 }
 
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 
 @end
+
+
+
+
