@@ -8,7 +8,7 @@
 
 #import "BaseModel.h"
 
-@interface UserInfoModel : BaseModel
+@interface UserInfoModel : BaseModel<BaseModelDelegate>
 
 @property (strong , nonatomic) NSNumber *uid;
 
@@ -18,6 +18,8 @@
 
 @property (copy , nonatomic) NSString *enterproseName;
 @property (copy , nonatomic) NSString *job;
+
+
 
 
 @end

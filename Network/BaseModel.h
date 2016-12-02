@@ -8,6 +8,20 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol BaseModelDelegate <NSObject>
+@optional
+- (BOOL)createTableWithName:(NSString *)tabName;
+
+- (BOOL)insert;
+
+- (BOOL)remove;
+
+- (BOOL)update;
+
+- (BOOL)select;
+
+@end
+
 @interface BaseModel : NSObject
 
 

@@ -11,6 +11,8 @@
 		22117C8F1DEEDA8800186CA9 /* SVProgressHUD+Error.m in Sources */ = {isa = PBXBuildFile; fileRef = 22117C8E1DEEDA8800186CA9 /* SVProgressHUD+Error.m */; };
 		22117C931DF0284400186CA9 /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22117C921DF0284400186CA9 /* UserInfoModel.m */; };
 		22117C961DF02ABB00186CA9 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22117C951DF02ABB00186CA9 /* BaseModel.m */; };
+		22117CB21DF178B800186CA9 /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 22117CB11DF178B800186CA9 /* NSObject+Runtime.m */; };
+		22117CB51DF1793600186CA9 /* Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 22117CB41DF1793600186CA9 /* Property.m */; };
 		22DDE15F1DEEA543000F6CE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DDE15E1DEEA543000F6CE1 /* main.m */; };
 		22DDE1621DEEA543000F6CE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DDE1611DEEA543000F6CE1 /* AppDelegate.m */; };
 		22DDE1651DEEA543000F6CE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DDE1641DEEA543000F6CE1 /* ViewController.m */; };
@@ -52,6 +54,10 @@
 		22117C921DF0284400186CA9 /* UserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
 		22117C941DF02ABB00186CA9 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		22117C951DF02ABB00186CA9 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		22117CB01DF178B800186CA9 /* NSObject+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
+		22117CB11DF178B800186CA9 /* NSObject+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
+		22117CB31DF1793600186CA9 /* Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
+		22117CB41DF1793600186CA9 /* Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Property.m; sourceTree = "<group>"; };
 		22DDE15A1DEEA543000F6CE1 /* Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Network.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22DDE15E1DEEA543000F6CE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22DDE1601DEEA543000F6CE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +121,10 @@
 				22117C951DF02ABB00186CA9 /* BaseModel.m */,
 				22117C911DF0284400186CA9 /* UserInfoModel.h */,
 				22117C921DF0284400186CA9 /* UserInfoModel.m */,
+				22117CB31DF1793600186CA9 /* Property.h */,
+				22117CB41DF1793600186CA9 /* Property.m */,
+				22117CB01DF178B800186CA9 /* NSObject+Runtime.h */,
+				22117CB11DF178B800186CA9 /* NSObject+Runtime.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -488,8 +498,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22117CB51DF1793600186CA9 /* Property.m in Sources */,
 				22DDE1651DEEA543000F6CE1 /* ViewController.m in Sources */,
 				22117C931DF0284400186CA9 /* UserInfoModel.m in Sources */,
+				22117CB21DF178B800186CA9 /* NSObject+Runtime.m in Sources */,
 				22117C961DF02ABB00186CA9 /* BaseModel.m in Sources */,
 				22DDE1621DEEA543000F6CE1 /* AppDelegate.m in Sources */,
 				22117C8C1DEED9FB00186CA9 /* UserInfoTableViewController.m in Sources */,

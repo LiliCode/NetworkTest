@@ -23,6 +23,8 @@
     UserInfoModel *info = [[UserInfoModel alloc] init];
     NSArray *list = [info getPropertyList];
     NSLog(@"%@", list);
+    
+    
 }
 
 

@@ -15,6 +15,19 @@
 
 @implementation UserInfoModel
 
+- (NSString *)tableName:(NSString *)tabName
+{
+    NSString *doc = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
+    return [NSString stringWithFormat:@"%@/%@.sqlite", doc, tabName];
+}
+
+- (BOOL)createTableWithName:(NSString *)tabName
+{
+    
+    
+    return YES;
+}
+
 
 
 
