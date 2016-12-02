@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSObject+Runtime.h"
 
 @protocol BaseModelDelegate <NSObject>
 @optional
@@ -23,10 +24,6 @@
 @end
 
 @interface BaseModel : NSObject
-
-
-- (NSArray *)getPropertyList;
-
 
 
 @end
